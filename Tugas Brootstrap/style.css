@@ -1,0 +1,65 @@
+body {
+  background: #fafafa;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.profile-header {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #b9b9b9;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.btn-follow {
+  min-width: 110px;
+}
+
+.stat-number {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.post-img {
+  width: 70%;
+  height: 0;
+  padding-bottom: 80%; /* square */
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.posts-grid {
+  gap: 10px;
+}
+
+.highlight-circle {
+  width: 68px;
+  height: 68px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+}
+
+.highlight-circle img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .avatar { width: 90px; height: 90px; }
+}
